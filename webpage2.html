@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<div id="text">
+  <style>
+    h1{color:DarkSlateBlue; font-family: "Courier New", Courier, monospace}
+    body{background-color:Thistle; color:DarkSlateBlue; font-family: "Courier New", Courier, monospace;
+  }
+    #playlist{color:DarkSlateBlue; font-family: "Courier New", Courier, monospace}
+  </style>
+
+<head>
+  <title>
+    Hello!
+  </title>
+</head>
+
+<body>
+  <center>
+  <img id="cat" src="https://media1.tenor.com/images/f5130188289fbc6f3556dc8f961906ed/tenor.gif?itemid=6020787">
+  <h1>Michelle</h1>
+
+  <br>writing, swimming, learning Latin
+
+  <br>alternative pop : Lana del Rey, Melanie Martinez, Halsey, Taylor Swift, Fleurie
+
+  <br>Have a listen to some <a id="playlist" href="https://open.spotify.com/user/michelleshelle68">playlists.</a>
+
+  <br>historical dramas and films : the Tudors, the Borgias, HZGG, Yanxi Palace, Rome
+
+  <p id="new"> if you want me to dissapear...</p>
+
+  <button type ="button" onclick=buttonfunction()>Click me!</button>
+
+  </center>
+</body>
+
+<script>
+
+  function buttonfunction() {
+    //alert("hi");
+    document.getElementById("new").style.color="Thistle";
+    var image = document.getElementById("cat").src="https://78.media.tumblr.com/d781c4bd526fd2115c42fe96b59e4e49/tumblr_oulmqnlgeN1qztgoio1_500.gif";
+    document.getElementById("text").style.backgroundColor="cornsilk";
+  }
+
+</script>
+</div>
+</html>
